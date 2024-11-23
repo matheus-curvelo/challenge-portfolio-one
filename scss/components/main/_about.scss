@@ -1,3 +1,17 @@
 #about {
-    
+    background-color: $secondary;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+
+    @media (max-width: $mdMax) {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    h6 {
+        margin-bottom: 1.25rem;
+    }
 }

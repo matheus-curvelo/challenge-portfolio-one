@@ -110,6 +110,24 @@ footer p {
   text-align: center;
 }
 
+#about {
+  background-color: #EAF2FD;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+@media (max-width: 991.98px) {
+  #about {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+#about h6 {
+  margin-bottom: 1.25rem;
+}
+
 #main-banner .social-media-area {
   display: flex;
   gap: 2rem;
