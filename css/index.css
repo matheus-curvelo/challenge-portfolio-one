@@ -100,4 +100,35 @@ footer {
 footer p {
   margin: 0;
   text-align: center;
+}
+
+#main-banner .social-media-area {
+  display: flex;
+  gap: 2rem;
+}
+@media (max-width: 991.98px) {
+  #main-banner .social-media-area {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}
+#main-banner .social-media-area a {
+  color: #464646;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+#main-banner .social-media-area a:hover {
+  color: #2A7AE4;
+}
+#main-banner .social-media-area a:hover img {
+  transform: rotate(45deg);
+}
+#main-banner .social-media-area a img {
+  transition: transform 0.3s ease;
+}
+#main-banner .photo-area img {
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  max-width: 368px;
+  max-height: 368px;
 }/*# sourceMappingURL=index.css.map */

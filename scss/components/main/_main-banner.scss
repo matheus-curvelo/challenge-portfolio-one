@@ -1,3 +1,40 @@
+@import '../../variables';
+
 #main-banner {
-    
+    .social-media-area {
+        display: flex;
+        gap: 2rem;
+
+        @media (max-width: $mdMax) {
+            flex-direction: column;
+            gap: .25rem;
+        }
+
+        a {
+            color: $dark;
+            text-decoration: none;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: $primary;
+
+                img {
+                    transform: rotate(45deg);
+                }
+            }
+
+            img {
+                transition: transform 0.3s ease;
+            }
+        }
+    }
+
+    .photo-area {
+        img {
+            background-color: $light;
+            border-radius: 50%;
+            max-width: 368px;
+            max-height: 368px;
+        }
+    }
 }
