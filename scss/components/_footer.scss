@@ -1,0 +1,11 @@
+@import '../variables';
+
+footer {
+    padding: 2rem;
+    background-color: $light;
+
+    p {
+        margin: 0;
+        text-align: center;
+    }
+}

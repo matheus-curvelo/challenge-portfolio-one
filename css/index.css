@@ -91,4 +91,13 @@ header .container .logo {
   header .container .email-area {
     font-weight: bold;
   }
+}
+
+footer {
+  padding: 2rem;
+  background-color: #FFFFFF;
+}
+footer p {
+  margin: 0;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */
