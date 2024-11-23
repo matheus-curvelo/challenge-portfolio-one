@@ -77,10 +77,11 @@ header .container {
 header .container a {
   color: #464646;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 header .container a:hover {
   color: #464646;
-  text-decoration: underline;
+  color: #2A7AE4;
 }
 header .container .logo {
   display: flex;
