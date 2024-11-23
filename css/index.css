@@ -69,4 +69,26 @@ p {
   p {
     font-size: 0.875rem;
   }
+}
+
+header .container {
+  gap: 0.25rem 0.75rem;
+}
+header .container a {
+  color: #464646;
+  text-decoration: none;
+}
+header .container a:hover {
+  color: #464646;
+  text-decoration: underline;
+}
+header .container .logo {
+  display: flex;
+  gap: 9px;
+  font-weight: bold;
+}
+@media (min-width: 575.98px) {
+  header .container .email-area {
+    font-weight: bold;
+  }
 }/*# sourceMappingURL=index.css.map */

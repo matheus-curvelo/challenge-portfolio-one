@@ -1,0 +1,29 @@
+@import '../variables';
+
+header {
+    .container {
+        gap: .25rem .75rem;
+
+        a {
+            color: $dark;
+            text-decoration: none;
+
+            &:hover {
+                color: $dark;
+                text-decoration: underline;
+            }
+        }
+
+        .logo {
+            display: flex;
+            gap: 9px;
+            font-weight: bold;
+        }
+
+        .email-area {
+            @media (min-width: $xsMax) {
+                font-weight: bold;
+            }
+        }
+    }
+}
