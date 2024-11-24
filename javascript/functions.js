@@ -11,6 +11,7 @@ document.querySelector('#contact form').addEventListener('submit', function (e) 
     const templateParams = {
         from_name: formData.get('name'),
         to_name: 'Matheus',
+        email: formData.get('email'),
         subject: formData.get('subject'),
         message: formData.get('message')
     };
