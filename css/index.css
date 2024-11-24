@@ -177,6 +177,11 @@ footer p {
   -o-object-fit: contain;
      object-fit: contain;
 }
+@media (max-width: 991.98px) {
+  #educational .card .card-img img {
+    width: 200px;
+  }
+}
 
 #main-banner .social-media-area {
   display: flex;
