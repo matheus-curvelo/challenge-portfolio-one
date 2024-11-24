@@ -27,3 +27,7 @@ document.querySelector('#contact form').addEventListener('submit', function (e) 
             console.error('Erro:', error);
         });
 });
+
+// Inserindo ano no footer
+const currentYear = new Date().getFullYear();
+document.getElementById('currentYear').textContent = currentYear;
