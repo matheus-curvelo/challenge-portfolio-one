@@ -1,3 +1,26 @@
 #professional {
-    
+    .row {
+        @media (min-width: $mdMax) {
+
+            &:nth-child(even) {
+                .col-lg-8 {
+                    order: 1;
+                }
+
+                .col-lg-4 {
+                    order: 2;
+                }
+            }
+
+            &:nth-child(odd) {
+                .col-lg-8 {
+                    order: 2;
+                }
+
+                .col-lg-4 {
+                    order: 1;
+                }
+            }
+        }
+    }
 }

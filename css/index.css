@@ -83,6 +83,23 @@ p {
   }
 }
 
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 0;
+}
+
+.btn-outline-primary {
+  color: #2A7AE4;
+  border: 1px solid #2A7AE4;
+}
+
+.btn-primary {
+  background-color: #2A7AE4;
+  border-color: #2A7AE4;
+  color: #FFFFFF;
+}
+
 header .container {
   gap: 0.25rem 0.75rem;
 }
@@ -212,6 +229,21 @@ footer p {
   border-radius: 50%;
   max-width: 368px;
   max-height: 368px;
+}
+
+@media (min-width: 991.98px) {
+  #professional .row:nth-child(even) .col-lg-8 {
+    order: 1;
+  }
+  #professional .row:nth-child(even) .col-lg-4 {
+    order: 2;
+  }
+  #professional .row:nth-child(odd) .col-lg-8 {
+    order: 2;
+  }
+  #professional .row:nth-child(odd) .col-lg-4 {
+    order: 1;
+  }
 }
 
 #skills,
