@@ -1,6 +1,14 @@
 @import '../../variables';
 
 #main-banner {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    @media (max-width: $mdMax) {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
     .social-media-area {
         display: flex;
         gap: 2rem;
@@ -33,8 +41,11 @@
         img {
             background-color: $light;
             border-radius: 50%;
-            max-width: 368px;
-            max-height: 368px;
+            max-width: 20rem;
+
+            @media (max-width: $mdMax) {
+                max-width: 15rem;
+            }
         }
     }
 }

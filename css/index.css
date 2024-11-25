@@ -111,6 +111,7 @@ header {
   background: #F5F5F5;
   width: 100%;
   z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 header .container {
   gap: 0.25rem 0.75rem;
@@ -238,6 +239,16 @@ footer p {
   }
 }
 
+#main-banner {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+@media (max-width: 991.98px) {
+  #main-banner {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
 #main-banner .social-media-area {
   display: flex;
   gap: 2rem;
@@ -265,8 +276,12 @@ footer p {
 #main-banner .photo-area img {
   background-color: #FFFFFF;
   border-radius: 50%;
-  max-width: 368px;
-  max-height: 368px;
+  max-width: 20rem;
+}
+@media (max-width: 991.98px) {
+  #main-banner .photo-area img {
+    max-width: 15rem;
+  }
 }
 
 @media (min-width: 991.98px) {
