@@ -7,6 +7,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin-top: 2rem;
+}
+@media (max-width: 991.98px) {
+  .sections {
+    margin-top: 1rem;
+  }
 }
 
 body {
@@ -99,6 +105,13 @@ p {
   color: #FFFFFF;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  background: #F5F5F5;
+  width: 100%;
+  z-index: 1000;
+}
 header .container {
   gap: 0.25rem 0.75rem;
 }

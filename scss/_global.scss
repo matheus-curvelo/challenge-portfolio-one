@@ -9,4 +9,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-top: 2rem;
+
+    @media (max-width: $mdMax) {
+        margin-top: 1rem;
+    }
 }

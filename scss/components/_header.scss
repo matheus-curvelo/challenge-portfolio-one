@@ -1,6 +1,12 @@
 @import '../variables';
 
 header {
+    position: sticky;
+    top: 0;
+    background: $light2;
+    width: 100%;
+    z-index: 1000;
+
     .container {
         gap: .25rem .75rem;
 
